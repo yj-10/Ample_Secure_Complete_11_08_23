@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-link {
+  list-style: none;
+}
+.nav-link a {
+  text-decoration: none;
+  color: rgba(46, 179, 236, 1);
+  font-weight: 550;
+}
+
+.nav-link a:hover {
+  text-decoration: none;
+  color: rgba(46, 179, 236, 1);
+  font-weight: 550;
+}

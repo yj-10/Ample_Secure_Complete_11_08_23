@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .div_Employment_title{
+      position: relative;
+      display: block;
+      padding-top: 10px;
+      /* padding: 20px 0px; */
+      overflow: hidden;
+  }
+  .div_Employment_title h1{
+      color: rgba(36, 107, 165, 1);
+      text-align: center;
+      font-weight: 550;
+  }
+  /* risk profile verification */
+  .Employment_container {
+    margin: 10px 0px;
+    /* padding: 20px 0px; */
+    /* background-color: aquamarine; */
+  }
+  .Employment_container .Employment_box {
+    /* color: rgba(36, 107, 165, 1); */
+    position: relative;
+    display: block;
+    overflow: hidden;
+    /* background-color: red; */
+  }
+  .Employment_container .Employment_box .Employment_left_side{
+      display: block;
+      position: relative;
+  
+  }
+  .Employment_container .Employment_box .Employment_left_side img {
+    object-fit: cover ;
+    border-radius: 8px;
+    /* border: 1px solid rgba(0, 0, 0, 0.4); */
+  }
+  .Employment_container .Employment_box .Employment_right_side h2{
+      color: rgba(36, 107, 165, 1);
+      text-align: start;
+      font-weight: 550;
+      margin-top: 30px;
+  }
+  .Employment_container .Employment_box .Employment_right_side p{
+      letter-spacing: 0.2px;
+      color: rgba(36, 107, 165, 1);
+      text-align: justify !important;
+      /* font-weight: 350; */
+      text-align: start;
+  }
+

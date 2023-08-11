@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div_About_container {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.div_About_container .About_headers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_About_container .About_headers h1 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+.div_About_container .About_headers p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.div_About_Technology_container {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  position: relative;
+}
+.About_ul li {
+  list-style-type: none;
+}
+
+.div_About_Technology_container .About_ul li h1 {
+  text-align: center;
+  font-weight: 550;
+  color: rgba(4, 86, 152, 1);
+}
+
+.div_About_Technology_container .About_ul li p {
+  text-align: center;
+  margin: 10px 0px;
+  /* color: black; */
+  color: rgba(4, 86, 152, 1);
+  text-align: justify !important;
+  font-weight: 510;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.4px;
+}
+.div_About_Technology_container .Career_ul li img {
+  width: 700px;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.div_About_middle_container {
+  padding: 30px;
+  position: relative;
+  display: block;
+  color: rgba(4, 86, 152, 1);
+}
+/* about leader */
+
+/* .color{ */
+
+  /* background: linear-gradient(
+    3.69deg,
+    #d49a9a 3.03%,
+    rgba(255, 255, 255, 0) 97.06%
+  ); */
+
+/* } */
+
+
+.About_leader_container {
+
+
+ 
+
+  margin: 30px 0px;
+  color: rgba(4, 86, 152, 1);
+}
+
+/* about coonect  */
+.div_connect {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.div_connect .div_connect_button {
+  position: relative;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.div_connect .button {
+  border-radius: 35px;
+  background-color: rgba(193, 38, 178, 1);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.div_connect h2 {
+  color: rgba(4, 86, 152, 1);
+}
+.div_About_middle_container p{
+  text-align: justify!important;
+}
+
+@media screen and (max-width: 772px) {
+  .div_About_container .About_headers  h1 {
+    font-size:16px;
+}
+.div_About_container .About_headers  p{
+  font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .div_About_container .About_headers h1 {
+    font-size:12px;
+}
+.div_About_container .About_headers  p{
+  font-size: 8px;
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 320px) {
+
+
+  .div_About_container .About_headers h1 {
+
+    font-size:10px;
+}
+.div_About_container .About_headers  p{
+  font-size: 6px;
+}
+
+
+}

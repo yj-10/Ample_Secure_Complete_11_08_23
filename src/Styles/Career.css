@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div_Career_container {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.div_Career_container .Career_headers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_Career_container .Career_headers h1 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+.div_Career_container .Career_headers p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.About_leader_container {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  position: relative;
+}
+.Career_ul li {
+  list-style-type: none;
+}
+
+.div_Career_middle_container .Career_ul li h1 {
+  text-align: center;
+  font-weight: 550;
+  color: rgba(4, 86, 152, 1);
+  padding: 20px;
+}
+
+.div_Career_middle_container .Career_ul li p {
+  text-align: center;
+  margin: 10px 0px;
+  color: rgba(4, 86, 152, 1);
+  text-align: justify !important;
+  font-weight: 400;
+}
+.div_Career_middle_container .Career_ul li img {
+  width: 700px;
+  height: auto;
+  margin: 20px 0px;
+}
+
+/* //ample secure  */
+.div_Career_LifeAmpleSecure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.div_Career_LifeAmpleSecure .Career_LifeAmple_title h1 {
+  color: rgba(36, 107, 165, 1);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+
+.div_Career_LifeAmpleSecure .Career_LifeAmple_title p {
+  text-transform: capitalize;
+  color: rgba(36, 107, 165, 1);
+  text-align: justify !important;
+  font-weight: 450;
+  margin: 15px 0px;
+  text-decoration: none;
+  text-overflow: hidden;
+
+  text-align: center;
+}
+
+/* career coonect  */
+.div_connect {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.div_connect .div_connect_button {
+  position: relative;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.div_connect .button {
+  border-radius: 35px;
+  background-color: rgba(193, 38, 178, 1);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.div_connect h2 {
+  color: rgba(4, 86, 152, 1);
+}
+
+.Drivers h1{
+  text-align: center;
+  font-weight: 550;
+  color: rgba(4, 86, 152, 1);
+}
+
+
+
+
+/* our key drivers style */
+.div_OurKey_container {
+  display: block;
+  position: relative;
+  margin: 30px 0px;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+.div_OurKey_container .div_Ourkey_title {
+  padding: 20px 0px;
+}
+.div_OurKey_container .div_Ourkey_title h2 {
+  color: rgba(4, 86, 152, 1);
+  font-weight: 580;
+  text-align: center;
+  font-size: 44px;
+}
+.div_OurKey_container .div_Ourkey_box {
+  border: 1px solid rgba(4, 86, 152, 1);
+  padding: 20px;
+  border-radius: 15px;
+  display: block;
+  overflow: hidden;
+}
+.div_Ourkey_box .div_ourkey_occupation {
+  display: grid;
+  place-items: center;
+}
+.div_Ourkey_box .div_ourkey_occupation h2 {
+  color: rgba(36, 107, 165, 1);
+  font-weight: 560;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.div_Ourkey_box .div_ourkey_ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.div_Ourkey_box .div_ourkey_ul li {
+  list-style-type: none;
+  margin: 0px 13px;
+  margin-top: 10px;
+}
+
+.div_Ourkey_box .div_ourkey_ul li p {
+  font-size: 17px;
+  color: rgba(36, 107, 165, 1);
+  font-weight: 560;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.div_Ourkey_box .div_Ourkey_Button {
+  display: grid;
+  place-items: center;
+}
+.div_Ourkey_box .div_Ourkey_Button button {
+  padding: 5px 40px;
+  font-size: 25px;
+  color: rgba(36, 107, 165, 1);
+  font-weight: 560;
+  border: 1px solid rgba(36, 107, 165, 1);
+  text-decoration: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+
+@media screen and (max-width: 772px) {
+  .div_Career_container .Career_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:16px;
+}
+.div_Career_container .Career_headersp{
+  font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .div_Career_container .Career_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:12px;
+}
+.div_Career_container .Career_headersp{
+  font-size: 8px;
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 320px) {
+
+
+  
+
+
+  .div_Career_container .Career_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:10px;
+}
+.div_Career_container .Career_headersp{
+  font-size: 6px;
+}
+
+
+}

@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div_Contact_container {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.div_Contact_container .Contact_headers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_Contact_container .Contact_headers h1 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+
+.div_contact_middle_container {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.contact_ul li {
+  list-style-type: none;
+  text-align: center;
+  margin: 25px 0px;
+  color: rgba(4, 86, 152, 1);
+  /* text-align: justify !important; */
+  font-weight: 600;
+}
+
+/* // Contact middle Container */
+
+.Contact_middle_Container .Contact_Card {
+  /* padding: 20px; */
+  width: 100%;
+  margin: 20px 0px;
+  min-height: 380px;
+  /* height: 400px; */
+  background-color: #b8d6ee;
+  border-radius: 20px;
+}
+.Contact_middle_Container .Contact_Card p {
+  text-align: center;
+  margin: 20px 0px;
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 18px;
+}
+
+.Contact_middle_Container .Contact_Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact_middle_Container .Contact_Card img {
+  width: 50%;
+  height: 30%;
+}
+
+.form_Contact_with {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  /* background-color:pink; */
+  /* width: 1000px; */
+  /* max-width:''; */
+}
+
+/* .div_contact_title{
+
+  postion:relative
+display:flex;
+justify-content:start;
+text-align:start;
+}
+
+ .div_contact_title img{
+  height:80px ;
+  width:150px;
+  }
+ .div_contact_title h2{
+
+  height:80px ;
+  width:150px;
+  } */
+
+.form_Contact_with .container-box {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.container-box .div_contact_title img {
+  width: 200px;
+}
+.container-box .div_contact_title h2 {
+  padding: 0px 0px 0px 50px;
+  color: rgba(4, 86, 152, 1);
+  /* background-color: red; */
+}
+.form_Contact_with .Contact_heading h1 {
+  /* list-style-type: none; */
+  text-align: center;
+  margin: 25px 0px;
+  color: rgba(4, 86, 152, 1);
+  /* font-weight: 600; */
+}
+
+.div_contact_title {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.div_contact_form .form-control {
+  border-radius: 30px;
+  padding: 15px 20px;
+}
+
+
+
+@media screen and (max-width: 772px) {
+  .div_Contact_container .Contact_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:16px;
+}
+.div_Contact_container .Contact_headers  p {
+  
+  font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .div_Contact_container .Contact_headers  h1 {
+    
+    /* text-align: center; */
+    /* color: white; */
+    font-size:12px;
+}
+.div_Contact_container .Contact_headers p{
+  font-size: 8px;
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 320px) {
+
+
+
+
+  .div_Contact_container .Contact_headersh1 {
+
+    font-size:10px;
+}
+.div_Contact_container .Contact_headersp{
+  font-size: 6px;
+}
+
+
+}

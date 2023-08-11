@@ -1,0 +1,491 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ellipse */
+.div_home_Ellipse {
+  display: block;
+  position: relative;
+}
+
+/* .div_home_Ellipse .div_Ellipse_box{ */
+/* border-radius: 50%; */
+/* background-color: red; */
+/* display: block; */
+/* position: absolute; */
+/* top: 50%; */
+/* } */
+.div_Ellipse_box .center {
+  background: #4a90b8;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* ellipse */
+.div_home_container {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.div_home_container .Home_headers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_home_container .Home_headers h1 {
+  text-align: center;
+  
+  
+font-size: 55px;
+  color: white;
+}
+.div_home_container .Home_headers p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+/* div middle container */
+.div_home_middle_container {
+  position: relative;
+  display: block;
+  /* margin: 20px 0px; */
+  overflow: hidden;
+  background-color: rgb(243, 235, 235);
+  padding: 20px;
+}
+.div_home_middle_container .div_home_middle_card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.div_home_middle_container .div_home_middle_card h3 {
+  color: rgba(4, 86, 152, 1);
+  font-weight: 300;
+  font-style: normal;
+  text-align: start;
+  text-decoration: none;
+}
+.div_home_middle_container .div_home_middle_card h1 {
+  color: rgba(4, 86, 152, 1);
+  font-weight: 530;
+  font-style: normal;
+  text-align: start;
+  text-decoration: none;
+}
+.div_home_middle_container .div_home_middle_card p {
+  letter-spacing: 0.4px;
+  font-weight: 450;
+  font-style: normal;
+  text-align: start;
+  text-align: justify!important;
+  text-decoration: none;
+  line-height: 25px;
+}
+.div_home_middle_container .div_home_middle_card button {
+  border-radius: 35px;
+  background-color: rgba(193, 38, 178, 1);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-weight: 550;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+/* div middle container */
+
+/* Industries we Serve */
+.div_home_industry {
+  background-image: url("../assests/Img/Rectangle\ 11.png");
+  display: block;
+  position: relative;
+  padding: 20px 0px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.div_home_industry .Industry_headers {
+  margin: 40px 0px;
+}
+.div_home_industry .Industry_headers h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+.div_home_industry .Industry_headers .industry_cards ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div_home_industry .Industry_headers .industry_cards ul li {
+  list-style-type: none;
+  margin: 10px 65px;
+}
+.div_home_industry .Industry_headers .industry_cards ul li img{
+  height: 180px;
+}
+.div_home_industry .Industry_headers .industry_cards ul li h2{
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 450;
+  font-size: 16px;
+}
+/* div_home_technology_container */
+
+.div_home_technology_container {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  
+}
+
+.div_home_technology_container .div_tech_box h3 {
+  color: rgba(4, 86, 152, 1);
+  font-size: 18px;
+  font-weight: 540;
+  text-align: start;
+}
+.div_home_technology_container .div_tech_box h1 {
+  color: rgba(4, 86, 152, 1);
+  text-align: start;
+}
+.div_home_technology_container .div_tech_box p {
+  text-align: start;
+  color: rgba(4, 86, 152, 1);
+  text-align: justify!important;
+}
+.div_home_technology_container .div_tech_box button {
+  border-radius: 35px;
+  background-color: rgba(193, 38, 178, 1);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+/* our team */
+.div_home_our_tame {
+  background: linear-gradient(
+    3.69deg,
+    /* #4a90b8 3.03%, */
+    rgba(255, 255, 255, 0) 97.06%
+  );
+  /* margin: 40px 0px; */
+  padding: 60px 0px;
+}
+
+.team_title h1 {
+  text-align: center;
+  margin: 40px 0px;
+  font-weight: 540;
+
+  color: rgba(4, 86, 152, 1);
+}
+
+/* div_home_people_container */
+.div_home_people_container {
+  /* background: linear-gradient(
+    264.4deg,
+    #504dbf -4.64%,
+    rgba(40, 126, 188, 0.908557) 28.09%,
+    rgba(33, 70, 164, 0.820854) 60.6%,
+    rgba(61, 65, 152, 0.657845) 93.47%,
+    rgba(68, 148, 193, 0.557292) 113.74%,
+    rgba(22, 64, 172, 0) 141.92%,
+    rgba(8, 34, 102, 0) 165.66%
+  ); */
+
+  display: block;
+  position: relative;
+  margin: 40px 0px;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+.div_home_people_container .people_right_side h1 {
+  color: rgb(255, 255, 255);
+  text-align: start;
+  /* margin: 20px 0px; */
+}
+.div_home_people_container .people_right_side p {
+  color: rgb(255, 255, 255);
+  text-align: start;
+  margin: 20px 0px;
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 18px;
+}
+.div_home_people_container .people_right_side button {
+  border-radius: 35px;
+  background-color: rgba(193, 38, 178, 1);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+/* elipse */
+.div_home_ellipse_container {
+  display: block;
+  /* height: 400px; */
+  width: 100%;
+  padding-bottom: 20px;
+  position: relative;
+  
+}
+.div_home_ellipse_container .ellipse_ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: -80px;
+  /* height: 100vh; */
+
+  /* left: 40%; */
+  /* transform: translate(-50%,0%); */
+}
+.div_home_ellipse_container .ellipse_ul li {
+  list-style-type: none;
+  background-color: skyblue;
+  border-radius: 550px;
+  /* padding: 100px 50px; */
+  margin: 0px 15px;
+  height: 360px ;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_home_ellipse_container .ellipse_ul li:nth-child(1) {
+  background-color: #045698;
+  color: #fff;
+}
+
+.div_home_ellipse_container .ellipse_ul li:nth-child(2) {
+  background-color: #2eb3ec;
+  color: #fff;
+}
+
+.div_home_ellipse_container .ellipse_ul li:nth-child(3) {
+  background-color: #045698;
+  color: #fff;
+}
+
+.div_home_ellipse_container .ellipse_ul li .ellipse_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div_home_ellipse_container .ellipse_ul li .ellipse_box img {
+  width: 30%;
+}
+
+.div_home_ellipse_container .ellipse_ul li .ellipse_box p {
+  text-align: center;
+}
+/* .Transparency_left_side{
+  display: block;
+    position: relative;
+}
+.Transparency_left_side img{
+  object-fit: cover ;
+  border-radius: 8px;
+}
+.div_home_technology_container .Transparency_left_side h2{
+  color: rgba(36, 107, 165, 1);
+  text-align: start;
+  font-weight: 550;
+  margin-top: 30px;
+} */
+.Transparency_left_side img{
+  object-fit: cover ;
+  border-radius: 8px;
+}
+.Transparency_right_side h2{
+  color: rgba(36, 107, 165, 1);
+    text-align: start;
+    font-weight: 550;
+    padding: 20px;
+    /* margin-top: 30px; */
+}
+.Transparency_right_side p{
+  color: rgba(36, 107, 165, 1);
+  letter-spacing: 0.2px;
+    /* font-weight: 350; */
+    /* text-align: start; */
+    text-align: justify !important;
+}
+
+
+.Integrity_right_side img{
+  object-fit: cover ;
+  border-radius: 8px;
+}
+
+
+.Integrity_right_side h2{
+  color: rgba(36, 107, 165, 1);
+  text-align: start;
+  font-weight: 550;
+  padding: 20px;
+  /* margin-top: 30px; */
+}
+.Integrity_right_side p{
+  color: rgba(36, 107, 165, 1);
+  letter-spacing: 0.2px;
+    /* font-weight: 350; */
+    /* text-align: start; */
+    text-align: justify !important;
+}
+.Quality_left_side img{
+  object-fit: cover ;
+  border-radius: 8px;
+  
+}
+
+.Quality_right_side h2{
+  color: rgba(36, 107, 165, 1);
+  text-align: start;
+  font-weight: 550;
+  padding: 20px;
+  /* margin-top: 30px; */
+}
+.Quality_right_side p{
+  color: rgba(36, 107, 165, 1);
+  letter-spacing: 0.2px;
+    /* font-weight: 350; */
+    /* text-align: start; */
+    text-align: justify !important;
+}
+
+/* media query */
+@media screen and (max-width: 992px) {
+  .div_home_ellipse_container .ellipse_ul {
+    top: 37px !important;
+
+}
+.div_home_ellipse_container .ellipse_ul li {
+  height : 300px;
+  margin: 10px 5px;
+  width: 300px;
+  
+    }
+}
+
+
+@media screen and (max-width: 772px) {
+  .div_home_container .Home_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:16px;
+}
+.div_home_container .Home_headers p{
+  font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .div_home_container .Home_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:12px;
+}
+.div_home_container .Home_headers p{
+  font-size: 8px;
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 320px) {
+
+  .div_home_ellipse_container .ellipse_ul li {
+
+height : 250px;
+margin: 10px 0px;
+width: 100%;
+
+  }
+
+
+  .div_home_container .Home_headers h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:10px;
+}
+.div_home_container .Home_headers p{
+  font-size: 6px;
+}
+
+
+}
+
+
+
+
+/* Our client */
+.Our_Client_Container{
+
+  padding: 20px 0px;
+  display: block;
+  position: relative;
+
+}
+.Our_Client_title h1{
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 450;
+}
+
+.Our_Client_Container .Client_img{
+ /* background-color: rgb(201, 197, 197); */
+ /* box-shadow: inset 0px 5px 15px -4px #0f2851; */
+ /* border-radius: 10px; */
+ /* background-color: aqua; */
+ 
+}
+
+/* .Our_Client_Container .Client_img .Client_img_box img:nth-child(1){
+  background-color: rgb(41, 141, 223);
+}
+.Our_Client_Container .Client_img .Client_img_box img:nth-child(2){
+background-color: #e7212b;
+
+} */
+/* .Our_Client_Container .Client_img:nth-child(2){
+  background-color: rgb(1, 9, 15);
+} */
+
+.Our_Client_Container .Client_img .Client_img_box{
+  margin: 10px;
+  padding: 4px;
+
+}
+
+.Our_Client_title h1{
+  color: rgba(36, 107, 165, 1);
+  font-weight: 550;
+}
+
+/* Our client */

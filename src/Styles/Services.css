@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div_Services_container {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.div_Services_container .Services_headers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div_Services_container .Services_headers h1 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+
+.div_Services_container .Services_headers p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* / srvicese Profiles and secure/ */
+.div_Service_Profile {
+  padding: 20px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.div_Service_Profile .div_Profile_title {
+  display: grid;
+  justify-content: center;
+  position: relative;
+}
+
+.div_Profile_title h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 55px;
+  color: rgba(36, 107, 165, 1);
+}
+.div_Profile_title p {
+  text-align: center;
+  font-weight: 450;
+  font-size: 18px;
+  margin: 15px 0px;
+  color: rgba(36, 107, 165, 1);
+  padding: 0px 30px 0px 30px;
+}
+
+.service_ul {
+  display: block;
+  position: relative;
+}
+.service_ul li {
+  border: 1px solid black;
+  display: flex;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: 30px 0px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+/* / srvicese Profiles and secure/ */
+.div_service_solutions {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+.div_service_solutions .div_solutions_title h1 {
+  text-align: center;
+  font-weight: 500;
+  color: rgba(36, 107, 165, 1);
+}
+.div_service_solutions .div_solutions_title p {
+  text-align: center;
+  font-weight: 450;
+  font-size: 18px;
+  margin: 15px 0px;
+  color: rgba(36, 107, 165, 1);
+  padding: 0px 40px 0px 40px;
+}
+/* / srvicese Profiles and secure/ */
+/* service solution help  */
+.div_service_solution_help {
+  position: relative;
+  display: block;
+  padding: 20px;
+  margin: 20px 0px;
+  overflow: hidden;
+}
+.div_service_solution_help .div_service_help {
+  display: block;
+  position: relative;
+}
+.div_service_solution_help .div_service_help h1 {
+  text-align: start;
+  padding: 20px;
+  font-size: 55px;
+  color: rgba(36, 107, 165, 1);
+}
+.div_service_solution_help .div_service_help p {
+  text-align: start;
+  font-weight: 510;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.div_service_solution_help h1 {
+  text-align: center;
+  font-size: 450;
+  color: rgba(36, 107, 165, 1);
+}
+
+.div_service_solution_help p {
+  text-align: center;
+  font-weight: 450;
+  font-size: 18px;
+  margin: 15px 0px;
+  color: rgba(36, 107, 165, 1);
+  padding: 0px 30px 0px 30px;
+}
+
+/* service solution help  */
+
+/* about coonect  */
+.div_connect {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  /* background-color: rgb(236, 247, 247); */
+  /* text-align: justify!important; */
+}
+.div_connect .div_connect_button {
+  position: relative;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.div_connect .button {
+  border-radius: 35px;
+  background-color: rgba(193, 38, 178, 1);
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.div_connect h2 {
+  color: rgba(4, 86, 152, 1);
+}
+/* about coonect  */
+
+.row {
+  padding: 40px;
+}
+.row .col-sm-4 {
+  color: rgba(4, 86, 152, 1);
+}
+
+/* media query  */
+
+
+
+@media screen and (max-width: 772px) {
+  .div_Services_container .Services_headers  h1 {
+ 
+    font-size:16px;
+}
+.div_Services_container .Services_headers  p{
+  font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .div_Services_container .Services_headers  h1 {
+    /* text-align: center; */
+    /* color: white; */
+    font-size:12px;
+}
+.div_Services_container .Services_headers  p{
+  font-size: 8px;
+}
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 320px) {
+
+  .div_Services_container .Services_headers h1 {
+    font-size:10px;
+}
+.div_Services_container .Services_headers p{
+  font-size: 6px;
+}
+
+
+}
